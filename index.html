@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MaqCouro</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/img/FaviconMaq.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <link href="assets/css/style.css" rel="stylesheet">
+<style>
+  /*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.call-to-action {
+  background: url("assets/img/calltoactionbackground.png") center center;
+  background-size: 100% ;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+@media (min-width: 1365px) {
+  .call-to-action {
+    background-attachment: fixed;
+  }
+}
+
+.call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  color: #fff;
+}
+#hero {
+  width: 100%;
+  position: relative;
+  background: url("assets/img/heropainel.jpg") center bottom no-repeat;
+  background-size: cover;
+  padding: 170px 0 170px 0;
+}
+
+@media (max-width: 991px) {
+  #hero {
+    padding: 140px 0 60px 0;
+  }
+}
+
+@media (max-width: 574px) {
+  #hero {
+    padding: 100px 0 20px 0;
+  }
+}
+
+#hero .hero-img {
+  width: 500px;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  #hero .hero-img {
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
+  }
+}
+
+#hero .hero-info {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  #hero .hero-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #hero .hero-info {
+    width: 100%;
+  }
+}
+
+#hero .hero-info h2 {
+  color: #fffffff6;
+  margin-bottom: 40px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+#hero .hero-info h2 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+#about .about-container p span{
+font-weight: 7000px;
+}
+@media (max-width: 767px) {
+  #hero .hero-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero .hero-info .btn-get-started,
+#hero .hero-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fffffff6;
+}
+
+#hero .hero-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fffffff6;
+}
+
+#hero .hero-info .btn-get-started:hover {
+  background: #0256af;
+  border: 2px solid #0256af;
+  color: #fffffff6;
+}
+
+#hero .hero-info .btn-services {
+  border: 2px solid #fffffff6;
+}
+
+#hero .hero-info .btn-services:hover {
+ background: #0256af;
+  border: 2px solid #0256af;
+  color: #fffffff6;
+}
+#hero .hero-info .btn-services {
+  border: 2px solid #fffffff6;
+}
+
+.call-to-action .cta-btn {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.call-to-action .cta-btn:hover {
+  background: #0256af;
+  border: 2px solid #0256af;
+  color: #fffffff6;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-center">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Início</a></li>
+          <li><a class="nav-link scrollto" href="quemsomos.html">Quem Somos</a></li>
+          
+          <li class="dropdown"><a href="#"><span>Produtos</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="selaria.html">Selaria</a></li>
+              <li><a href="cinto de elevaçao.html">Cintas de Elevação</a></li>
+                  <li><a href="estofados.html">Estofados</a></li>
+                  <li><a href="acessorios.html">Acessórios em couro</a></li>
+                  <li><a href="lonas.html">Lonas</a></li>
+                  <li><a href="bigbag.html">Big Bag</a></li>
+                <ul>
+                
+                </ul>
+            </ul>
+          </li>
+          
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+        <a href="index.html"><img src="http://www.maqcouro.com.br/wp-content/uploads/2019/07/logo3.png" alt="" class="img-fluid"></a>
+      </div>
+          <li><a class="nav-link scrollto " href="mauser.html">MauserSpezial</a></li>
+
+          <li><a class="nav-link scrollto " href="contato.html">Contato</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container" data-aos="fade-up">
+  
+      <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <div class="sombra"> <img src="assets/img/MC-204-370_semfundo.png" height="600px" width="480px" alt="" class="img-fluid"></div>
+      </div>
+      <br>
+  
+      <div class="hero-info mt-3" data-aos="zoom-in" data-aos-delay="100">
+        <h2>Desde 1987
+          <span>costurando</span><br>o futuro!
+        </h2>
+  
+        <h2 style="font-size: 18px;">Aqui você vai conhecer um pouco mais da <span>MaqCouro</span>.<br>Empresa líder na distribuição de máquinas <br>de costura industriais
+        </h2>
+        <div>
+          <a href="#services" class="btn-get-started scrollto">Produtos</a>
+          <a href="contato.html" class="btn-services scrollto">Fale Conosco</a>
+        </div>
+      </div>
+  
+    </div>
+    <br>
+  </section><!-- End Hero Section -->
+  
+<!--Botão whatsapp-->
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Nossa Empresa</h3>
+          <p>Desde 1987 no mercado, a <span style="color:#009ACF; font-weight: 900;">MaqCouro</span> tem construído uma relação de credibilidade com os mercados onde atua, solidificando sua marca com o sucesso e a satisfação de seus clientes.</p>
+        </header>
+    
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2 text-center text-lg-left">
+            <p>
+              O crescimento constante da marca é o reflexo claro do reconhecimento desse setor, quanto a <span style="color:#009ACF; font-weight: 900;">eficiência</span>, <span style="color:#009ACF; font-weight: 900;">respeito</span> e <span style="color:#009ACF; font-weight: 900;">preocupação</span> da empresa com seus clientes são aspectos de extrema importância.
+            </p>
+            <p>
+              <span style="color:#009ACF;">MaqCouro</span> está focada na solução de costura do cliente, sempre atuando em um trabalho customizado, ou seja, cada máquina é automatizada conforme a necessidade do cliente, com especificações de linha, agulha, material a ser costurado, se duas agulhas, a dimensão da costura, a voltagem do motor, rotação e etc. Com as informações passadas pelos clientes, desenvolvemos dispositivos, guias e regulagens com objetivo de otimizar o trabalho da máquina, tornando a operação mais fácil e aumentando a produtividade sem perder em qualidade.
+            </p>
+          </div>
+    
+          <div class="col-lg-6 content order-lg-2 order-1">
+            <img class="img-fluid img-custom" src="https://img.freepik.com/fotos-gratis/close-up-de-um-sapateiro-costurando-uma-parte-do-sapato_171337-12302.jpg?w=740&t=st=1691246787~exp=1691247387~hmac=4e61b1a4387beeecdae1fc177a6a53d7737a842551fde4261fb1cfbb0b5e07d7" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+
+
+    <!-- ======= Why Us Section ======= -->
+    <br>
+<br>
+  <br>
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+ <!-- Recent-posts Section - Home Page -->
+ <section id="recent-posts" class="recent-posts">
+
+  <!--  Section Title -->
+ <br>
+ <br>
+  <header class="section-header">
+    <h3 style="color: white">Produtos</h3>
+    <p style="color:white;">
+      Com 23 anos de mercado, a <span style="color:#030a49; font-weight: 900px; font-weight: 900px;">MaqCouro</span> tem construído uma relação de credibilidade com os mercados onde atua, solidificando sua marca com o sucesso e a satisfação de seus clientes.
+
+
+    </p>        </header>
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
+            <div class="box">
+              <h3>Selarias</h3>
+              <div class="btn-wrap">
+                <a href="selaria.html" class="btn-buy ">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box featured">
+              <h3>Cintas de Elevação</h3>
+             
+              <div class="btn-wrap">
+                <a href="cinto de elevaçao.html" class="btn-buy">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box featured2">
+              <h3>Estofados</h3>
+              <div class="btn-wrap">
+                <a href="estofados.html" class="btn-buy">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+<br>
+<br>
+<section id="pricing" class="pricing">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
+        <div class="box featured3">
+          <h3>Lonas</h3>
+          <div class="btn-wrap">
+            <a href="lonas.html" class="btn-buy">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+        <div class="box featured4">
+          <h3>Acessórios em couro</h3>
+         
+          <div class="btn-wrap">
+            <a href="acessorios.html" class="btn-buy">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+        <div class="box featured5">
+          <h3>BigBag</h3>
+          <div class="btn-wrap">
+            <a href="bigbag.html" class="btn-buy">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Pricing Section -->
+</div>
+    </div>
+<br>
+<br>
+        </section>
+        
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="zoom-out">
+    
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h3>Peça um orçamento!                      </h3>
+           <p>Contamos com profissionais capacitados que podem auxiliar no desenvolvimento do seu projeto!
+            Orientando e apoiando para atingir o que você busca.</p> 
+            <a class="cta-btn" href="contato.html">Fale Conosco</a>
+          </div>
+        </div>
+    
+      </div>
+
+      
+    </section><!-- End Call To Action Section -->
+
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="section-bg">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Nossos Clientes</h3>
+      <p>Trabalhando lado a lado com nossos clientes, alcançamos marcos significativos, otimizando processos, impulsionando eficiência e impulsionando o crescimento sustentável.
+
+      </p>
+    </div>
+
+    <div class="row g-0 clients-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clienteum.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientedois.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Autoliv_logo.svg/1200px-Autoliv_logo.svg.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientequatro1.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientecinco.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="https://static.fabapp.com/0bc4e0e17ea8198347c03231a8b4e05b381a7f47" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientesete.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clienteoito.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientenove.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clientedez.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo">
+          <img src="assets/img/clients/clienteonze.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- End Clients Section -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>MaqCouro</h3>
+              <p>
+                Escolha Maqcouro e eleve a sua costura para um novo patamar!<br>
+                <br>
+                
+                <strong>Telefone: </strong>+55 (11) 98970-5974<br>
+                <strong>Telefone: </strong>+55 (11) 3903-8424<br>
+                <strong>Email: </strong>Wilson@maqcouro.com.br
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Navegação</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Início</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="quemsomos.html">Quem Somos</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="mauser.html">Mauser</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Produtos</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="selaria.html">Selaria</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="cinto de elevaçao.html">Cintas de Elevação</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="estofados.html">Estofados</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="acessorios.html">Acessórios em couro</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="lonas.html">Lonas</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="bigbag.html">Bigbag</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Nossas Redes Sociais</h4>
+              <p>Conecte-se conosco nas redes sociais e faça parte de nossa comunidade! </p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/comercialmaqcouro" target="_blank" class="facebook"><iconify-icon icon="uil:facebook"></iconify-icon></a>
+                <a href="https://instagram.com/maquinas_maqcouro?igshid=MzRlODBiNWFlZA=="  target="_blank" class="instagram"><iconify-icon icon="uil:instagram"></iconify-icon></a>
+                <a href="https://www.linkedin.com/company/maqcouro/" target="_blank" class="linkedin" ><iconify-icon icon="uil:linkedin"></iconify-icon></a>
+                <a href="https://youtube.com/@MaqCouro" target="_blank" class="youtube" ><iconify-icon icon="uil:youtube"></iconify-icon></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-12 text-center text-sm-left"> <!-- Esta div ocupa todo o espaço na tela -->
+            <div class="copyright">
+              &copy; Copyright <strong><span>MaqCouro</span></strong>. Todos os direitos reservados.
+               Desenvolvido por <strong><span>ACP Technology</span></strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
